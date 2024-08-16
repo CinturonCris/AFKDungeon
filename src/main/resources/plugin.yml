@@ -1,0 +1,15 @@
+name: AFKDungeon
+main: c.cris.AFKDungeon.AFKDungeon.main.AFKDungeon
+version: 1.0
+author: CinturonCris
+api-version: 1.16
+depend: [WorldGuard]
+commands:
+  afk:
+    description: Toggles AFK mode.
+  afkdungeon:
+    description: Reloads the AFKDungeon configuration.
+permissions:
+  afkdungeon.reload:
+    description: Allows the user to reload the AFKDungeon configuration.
+    default: op

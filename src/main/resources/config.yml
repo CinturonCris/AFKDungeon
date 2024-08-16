@@ -1,0 +1,106 @@
+spawn-interval: 15
+
+spawn-locations:
+  loc1:
+    world: SpawnWorld
+    x: -921
+    y: 29
+    z: -19
+    yaw: 0.0
+    pitch: 0.0
+  loc2:
+    world: SpawnWorld
+    x: -914
+    y: 29
+    z: -2
+    yaw: 90.0
+    pitch: 0.0
+  loc3:
+    world: SpawnWorld
+    x: -925
+    y: 29
+    z: 8
+    yaw: 180.0
+    pitch: 0.0
+
+mobs:
+  enderman:
+    chance: 20
+    name: "&dEnderman"
+    drops:
+      item1:
+        type: item
+        id: "MAGMA_BLOCK"
+        chance: 20
+      item2:
+        type: item
+        id: "OBSIDIAN"
+        chance: 20
+      command1:
+        type: command
+        command: "eco give {player} 1000"
+        chance: 5
+      command2:
+        type: command
+        command: "eco give {player} 100"
+        chance: 30
+  zombie:
+    chance: 50
+    name: "&fZombie"
+    drops:
+      item1:
+        type: item
+        id: "DIAMOND"
+        chance: 20
+      command1:
+        type: command
+        command: "give {player} diamond 1"
+        chance: 30
+  skeleton:
+    chance: 60
+    name: "&fSkeleton"
+    drops:
+      item1:
+        type: item
+        id: "AMETHYST_SHARD"
+        chance: 50
+      item2:
+        type: item
+        id: "COOKIE"
+        chance: 10
+      command1:
+        type: command
+        command: "eco give {player} 3500"
+        chance: 30
+  cave_spider:
+    chance: 40
+    name: "&fCave Spider"
+    drops:
+      item1:
+        type: item
+        id: "COBBLESTONE"
+        chance: 10
+      item2:
+        type: item
+        id: "SPIDER_EYE"
+        chance: 20
+  spider:
+    chance: 60
+    name: "&fSpider"
+    drops:
+      item1:
+        type: item
+        id: "OAK_LOG"
+        chance: 10
+      item2:
+        type: item
+        id: "SPIDER_EYE"
+        chance: 20
+  slime:
+    chance: 10
+    name: "&fSlime"
+    drops:
+      item1:
+        type: item
+        id: "SLIME_BALL"
+        chance: 10

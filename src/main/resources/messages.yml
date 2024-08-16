@@ -1,0 +1,9 @@
+messages:
+  afk-command:
+    start: "&f[&3!&f] &aYou have entered the &lAFK dungeon&a!"
+    returned: "&f[&3!&f] &cYou have moved while AFK and have been teleported back."
+    already-afk: "&f[&3!&f] &cyou're already afk!."
+    timeout: "&f[&3!&f] &aYou were AFK and sent to &a&lAFK dungeon&c!"
+  reload:
+    success: "&f[&3!&f] &6AFKDungeon reloaded successfully!"
+  invalid-location: "&f[&3!&f] &cFailed to find a valid location in the region!"
